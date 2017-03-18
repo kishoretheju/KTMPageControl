@@ -1,0 +1,16 @@
+PODS:
+  - KTMPageControl (0.1.0)
+
+DEPENDENCIES:
+  - KTMPageControl (from `../`)
+
+EXTERNAL SOURCES:
+  KTMPageControl:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KTMPageControl: 22e0e620d562f6013d7999f47c7c81fcc27309b6
+
+PODFILE CHECKSUM: ecabd9320b7757e502e7f1d984d866f651c6b87e
+
+COCOAPODS: 1.1.1

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KTMPageControl'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of KTMPageControl.'
+  s.summary          = 'Android style page control.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,23 +18,23 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Android style page control, created using UIPageViewController. Each page is a view controller.
                        DESC
 
-  s.homepage         = 'https://github.com/KishoreForBigBasket/KTMPageControl'
+  s.homepage         = 'https://github.com/kishoretheju/KTMPageControl'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'KishoreForBigBasket' => 'kishore.thejasvi@gmail.com' }
-  s.source           = { :git => 'https://github.com/KishoreForBigBasket/KTMPageControl.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Kishoretheju' => 'kishore.thejasvi@gmail.com' }
+  s.source           = { :git => 'https://github.com/kishoretheju/KTMPageControl.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/kishore_munna'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'KTMPageControl/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'KTMPageControl' => ['KTMPageControl/Assets/*.png']
-  # }
+
+  s.resource_bundles = {
+    'KTMPageControl' => ['KTMPageControl/Assets/*.{storyboard,xib}']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

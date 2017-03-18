@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  KTMPageControl
 //
-//  Created by KishoreForBigBasket on 03/13/2017.
-//  Copyright (c) 2017 KishoreForBigBasket. All rights reserved.
+//  Created by Kishoretheju on 03/13/2017.
+//  Copyright (c) 2017 Kishoretheju. All rights reserved.
 //
 
 import UIKit

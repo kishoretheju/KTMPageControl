@@ -1,0 +1,6 @@
+framework module KTMPageControl {
+  umbrella header "KTMPageControl-umbrella.h"
+
+  export *
+  module * { export * }
+}
